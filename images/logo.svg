@@ -1,1 +1,22 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169.67 45.08"><defs><style>.cls-1{font-size:27px;fill:#3f57a7;}.cls-1,.cls-3{font-family:NotoSans-Regular, Noto Sans;}.cls-2{fill:#d1803c;}.cls-3{font-size:14px;fill:#fff;}</style></defs><title>logo</title><text class="cls-1" transform="translate(21.03 21.16)">FREEDOM</text><path class="cls-2" d="M28.71,35.67H24.1a3.91,3.91,0,0,0-2.29,2.71c-.36,2-1.45,5.55-6,5.7s-10.21-6.9-4.72-14.16a1.07,1.07,0,0,0,.4-.92H28.71Z"/><path class="cls-2" d="M28.71,22.33H24.1a3.88,3.88,0,0,1-2.29-2.7c-.36-2-1.45-5.56-6-5.7s-10.21,6.9-4.72,14.16a1,1,0,0,1,.4.91H28.71Z"/><path class="cls-2" d="M139.31,35.67h4.61a3.91,3.91,0,0,1,2.28,2.71c.37,2,1.46,5.55,6,5.7s10.2-6.9,4.72-14.16a1.07,1.07,0,0,1-.4-.92H139.31Z"/><path class="cls-2" d="M139.31,22.33h4.61a3.88,3.88,0,0,0,2.28-2.7c.37-2,1.46-5.56,6-5.7s10.2,6.9,4.72,14.16a1,1,0,0,0-.4.91H139.31Z"/><rect class="cls-2" x="25.96" y="22.33" width="117.9" height="13.34"/><text class="cls-3" transform="translate(40.44 33.86)">DOG RESCUE</text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 169.7 45.1" style="enable-background:new 0 0 169.7 45.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D1803C;}
+	.st1{fill:none;}
+	.st2{fill:#3F57A7;}
+	.st3{font-family:'AcuminPro-ExtraLight';}
+	.st4{font-size:21px;}
+	.st5{font-size:16px;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:none;stroke:#D1803C;stroke-miterlimit:10;}
+</style>
+<title>logo</title>
+<circle class="st0" cx="23.6" cy="22.2" r="19.4"/>
+<rect x="57.9" y="3.6" class="st1" width="108.5" height="39.7"/>
+<text transform="matrix(1 0 0 1 57.9121 19.1025)"><tspan x="0" y="0" class="st2 st3 st4">FREEDOM</tspan><tspan x="0" y="19.2" class="st2 st3 st5">DOG RESCUE</tspan></text>
+<rect x="8.4" y="15.3" class="st1" width="39.5" height="16.3"/>
+<text transform="matrix(1 0 0 1 8.4059 27.0821)" class="st6 st3 st5">FDR</text>
+<line class="st7" x1="50.5" y1="3.6" x2="50.5" y2="41.6"/>
+</svg>

@@ -2,11 +2,28 @@ html {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.logo {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo img {
+  max-width: 200px;
+  min-width: 150px;
+  width: 80px;
+}
+
 header nav {
   text-align: center;
-  text-align: left;
 }
 
 header nav ul li {
   display: inline;
+  padding: 0 1em;
+}
+
+header nav li a {
+  margin-right: 0;
+  text-decoration: none;
+  color: #3f57a7;
 }
