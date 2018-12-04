@@ -1,0 +1,12 @@
+html {
+
+}
+
+header nav {
+  text-align: center;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline;
+}
