@@ -47,6 +47,15 @@ header nav li a {
   bottom: 10em;
 }
 
+.btn {
+  background-color: #d1803c;
+  border: 0;
+}
+
+h2 {
+  color: #3f57a7;
+}
+
 @media only screen and (min-width: 60em) {
   header nav {
     text-align: left;
