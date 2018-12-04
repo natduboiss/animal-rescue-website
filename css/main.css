@@ -1,5 +1,5 @@
 html {
-  background-color: e0ded5;
+  background-color: #bababa;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -12,6 +12,10 @@ html {
   max-width: 200px;
   min-width: 150px;
   width: 80px;
+}
+
+header {
+  background-color: #bababa;
 }
 
 header nav {
@@ -27,6 +31,10 @@ header nav li a {
   margin-right: 0;
   text-decoration: none;
   color: #3f57a7;
+}
+
+header nav li a:hover {
+  color: #d1803c;
 }
 
 .banner-container {
@@ -52,8 +60,18 @@ header nav li a {
   border: 0;
 }
 
-h2 {
+article h2 {
   color: #3f57a7;
+}
+
+footer {
+  background-color: #3f57a7;
+  color: #fff;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
