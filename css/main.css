@@ -22,6 +22,10 @@ header nav {
   text-align: center;
 }
 
+nav .current {
+  color: #d1803c;
+}
+
 header nav ul li {
   display: inline;
   padding: 0 1em;
@@ -31,6 +35,10 @@ header nav li a {
   margin-right: 0;
   text-decoration: none;
   color: #3f57a7;
+}
+
+header nav li a:hover {
+  color: #d1803c;
 }
 
 .banner-container {
@@ -54,6 +62,10 @@ header nav li a {
 .btn {
   background-color: #d1803c;
   border: 0;
+}
+
+.btn:hover {
+  background-color: #3f57a7;
 }
 
 article h2 {
