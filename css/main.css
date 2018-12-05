@@ -1,5 +1,5 @@
 html {
-  background-color: #bababa;
+  background-color: #f0f0f0;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -23,7 +23,7 @@ header nav {
 }
 
 nav .current {
-  color: #d1803c;
+  color: #000;
 }
 
 header nav ul li {
@@ -38,7 +38,7 @@ header nav li a {
 }
 
 header nav li a:hover {
-  color: #d1803c;
+  border-bottom: 3px solid #d1803c;
 }
 
 .banner-container {
@@ -48,19 +48,15 @@ header nav li a:hover {
 .banner-wrapper h1 {
   color: #fff;
   text-shadow: 0 0 8px #000;
-  position: absolute;
-  bottom: 6.5em;
 }
 
 .banner-wrapper p {
   color: #fff;
   text-shadow: 0 0 8px #000;
-  position: absolute;
-  bottom: 10em;
 }
 
 .btn {
-  background-color: #d1803c;
+  background-color: #000;
   border: 0;
 }
 
@@ -102,4 +98,10 @@ footer li a {
     text-align: left;
   }
 
+}
+
+.banner-wrapper p a {
+  text-decoration: none;
+  border-bottom: 2px solid #d1803c;
+  color: #fff;
 }
