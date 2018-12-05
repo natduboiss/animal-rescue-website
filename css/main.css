@@ -1,5 +1,5 @@
 html {
-  background-color: #fff;
+  background-color: #bababa;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -33,10 +33,6 @@ header nav li a {
   color: #3f57a7;
 }
 
-header nav li a:hover {
-  color: #d1803c;
-}
-
 .banner-container {
   position: relative;
 }
@@ -62,6 +58,16 @@ header nav li a:hover {
 
 article h2 {
   color: #3f57a7;
+}
+
+.hover-box-img {
+  filter: grayscale(100%);
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img {
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 footer {
