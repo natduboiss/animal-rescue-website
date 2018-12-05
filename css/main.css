@@ -61,7 +61,7 @@ header nav li a:hover {
 }
 
 .btn:hover {
-  background-color: #3f57a7;
+  background-color: #d1803c;
 }
 
 article h2 {
@@ -95,7 +95,7 @@ footer li a {
 @media only screen and (min-width: 60em) {
 
   header nav {
-    text-align: left;
+    text-align: right;
   }
 
 }
