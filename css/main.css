@@ -63,6 +63,7 @@ header nav li a:hover {
 
 .btn:hover {
   background-color: #d1803c;
+  color: #fff;
 }
 
 article h2 {
@@ -93,7 +94,21 @@ footer li a {
   color: #d1803c;
 }
 
+.shadow {
+  box-shadow: 0 15px 15px rgba(128, 128, 128, .3);
+}
 
+.shadowlast {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.dogs h2 {
+  color: #d1803c;
+}
+
+.dogs p {
+  color: #3f57a7;
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -107,6 +122,10 @@ footer li a {
     margin-bottom: 2.5em;
     background-color: #e0e0e0;
     width: 45%;
+  }
+
+  .shadowlast {
+    box-shadow: 0 15px 15px rgba(128, 128, 128, .3);
   }
 
 }
