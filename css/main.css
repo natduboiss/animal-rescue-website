@@ -98,6 +98,14 @@ footer li a {
     text-align: right;
   }
 
+  .dogs {
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-bottom: 2.5em;
+    background-color: #E0E0E0;
+    width: 45%;
+  }
+
 }
 
 .banner-wrapper p a {
