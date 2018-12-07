@@ -23,9 +23,6 @@
     <li>
       <a href="#content">Jump to content</a>
     </li>
-    <li>
-      <a href="#about">Jump to about</a>
-    </li>
   </ul>
   <header role="banner" class="max-width pad-t-1-2 pab-b-1-2">
     <div class="grid grid-bottom">
@@ -92,7 +89,7 @@
                   <input type="text" name="address" id="address">
                 </div>
                 <div class="unit xs-1 s-1 m-1-2 l-1-2">
-                  <label for="address">City</label>
+                  <label for="city">City</label>
                   <input type="text" name="city" id="city">
                 </div>
                 <div class="unit xs-1 s-1 m-1-2 l-1-2">
@@ -111,16 +108,43 @@
                     <option>SK</option>
                   </select>
                 </div>
-              </fieldset>
-              <fieldset class="wrapper radio">
-                <legend>Have you previously owned a dog?</legend>
-                <div class="unit">
-                  <input type="radio" id="dogyes" name="check-1">
-                  <label for="dogyes">Yes</label>
-                  <input type="radio" id="dogno" name="check-1">
-                  <label for="dogno">No</label>
+              </div>
+            </fieldset>
+            <fieldset class="wrapper radio">
+              <legend>Have you previously owned a dog?</legend>
+              <div class="unit">
+                <input type="radio" id="dogyes" name="check-1">
+                <label for="dogyes">Yes</label>
+                <input type="radio" id="dogno" name="check-1">
+                <label for="dogno">No</label>
+              </div>
+            </fieldset>
+            <fieldset class="wrapper">
+              <legend>Which dog are you adopting?</legend>
+              <div class="grid">
+                <div class="unit xs-1 s-1 m-1 l-1">
+                  <div>
+                    <input id="toby" type="checkbox">
+                    <label for="toby">Toby</label>
+                  </div>
+                  <div>
+                    <input id="louis" type="checkbox">
+                    <label for="louis">Louis</label>
+                  </div>
+                  <div>
+                    <input id="ripley" type="checkbox">
+                    <label for="ripley">Ripley</label>
+                  </div>
+                  <div>
+                    <input id="michi" type="checkbox">
+                    <label for="michi">Michi</label>
+                  </div>
                 </div>
-              </fieldset>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
     </section>
   </main>
 
