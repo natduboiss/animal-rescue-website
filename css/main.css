@@ -121,6 +121,10 @@ fieldset {
   border-top: none;
 }
 
+fieldset legend {
+  color: #3f57a7;
+}
+
 @media only screen and (min-width: 60em) {
 
   header nav {
