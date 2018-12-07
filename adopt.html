@@ -64,35 +64,35 @@
       <div class="grid form max-width2">
         <div class="unit xs-1 s-1 m-1 l-">
           <form action="index.html" method="POST">
-            <fieldset class="wrapper">
-              <legend>Contact information</legend>
+            <fieldset class="wrapper push-0">
+              <legend class="giga gutter-1-2 pad-b-1-4">Contact information</legend>
               <div class="grid grid-middle">
-                <div class="unit xs-1 s-1 m-1 l-1">
+                <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
                   <label for="name">Full name</label>
                   <input id="name" name="name">
                 </div>
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 pad-b pad-t-1-4">
                   <label for="email">Email</label>
                   <input type="email" name="email" id="email" required>
                 </div>
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 pad-b pad-t-1-4">
                   <label for="number">Phone number</label>
                   <input type="tel" name="number" id="number" required>
                 </div>
               </div>
             </fieldset>
             <fieldset class="wrapper">
-              <legend>Home address</legend>
+              <legend class="giga gutter-1-2 pad-b-1-4">Home address</legend>
               <div class="grid grid-middle">
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 pad-t-1-4">
                   <label for="address">Street address</label>
                   <input type="text" name="address" id="address">
                 </div>
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 pad-t-1-4">
                   <label for="city">City</label>
                   <input type="text" name="city" id="city">
                 </div>
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 pad-b pad-t-1-4">
                   <label for="province">Province</label>
                   <select id="province">
                     <option>Select your province</option>
@@ -110,40 +110,53 @@
                 </div>
               </div>
             </fieldset>
-            <fieldset class="wrapper radio">
-              <legend>Have you previously owned a dog?</legend>
-              <div class="unit">
-                <input type="radio" id="dogyes" name="check-1">
-                <label for="dogyes">Yes</label>
-                <input type="radio" id="dogno" name="check-1">
-                <label for="dogno">No</label>
+            <fieldset class="wrapper radio push-0 gutter-1-2">
+              <legend class="giga pad-t pad-b-1-2">Have you previously owned a dog?</legend>
+              <div class="grid grid-middle">
+                <div class="unit pad-b">
+                  <input type="radio" id="dogyes" name="check-1">
+                  <label for="dogyes">Yes</label>
+                  <input type="radio" id="dogno" name="check-1">
+                  <label for="dogno">No</label>
+                </div>
               </div>
             </fieldset>
-            <fieldset class="wrapper">
-              <legend>Which dog are you adopting?</legend>
+            <fieldset class="wrapper radio push-0 gutter-1-2">
+              <legend class="giga pad-t pad-b-1-2">What's your living situation like?</legend>
+              <div class="grid grid-middle">
+                <div class="unit pad-b">
+                  <input type="radio" id="apartment" name="check-1">
+                  <label for="apartment">Apartment</label>
+                  <input type="radio" id="house" name="check-1">
+                  <label for="house">House</label>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset class="wrapper gutter-1-2">
+              <legend class="giga pad-t pad-b-1-2">Which dog are you adopting?</legend>
               <div class="grid">
                 <div class="unit xs-1 s-1 m-1 l-1">
-                  <div>
+                  <div class="push-1-4">
                     <input id="toby" type="checkbox">
                     <label for="toby">Toby</label>
                   </div>
-                  <div>
+                  <div class="push-1-4">
                     <input id="louis" type="checkbox">
                     <label for="louis">Louis</label>
                   </div>
-                  <div>
+                  <div class="push-1-4">
                     <input id="ripley" type="checkbox">
                     <label for="ripley">Ripley</label>
                   </div>
-                  <div>
+                  <div class="push-1-4">
                     <input id="michi" type="checkbox">
                     <label for="michi">Michi</label>
                   </div>
                 </div>
               </div>
             </fieldset>
-            <div class="text-center">
-              <button class="btn btn-ghost" type="submit">Adopt</button>
+            <div class="text-center pad-b">
+              <button class="btn btn-ghost giga" type="submit">Adopt</button>
             </div>
           </form>
         </div>
