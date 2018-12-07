@@ -58,6 +58,7 @@ header nav li a:hover {
 .btn {
   background-color: #000;
   border: 0;
+  color: #fff;
 }
 
 .btn:hover {
@@ -91,6 +92,8 @@ footer li a {
 .banner-wrapper a {
   color: #d1803c;
 }
+
+
 
 @media only screen and (min-width: 60em) {
 
